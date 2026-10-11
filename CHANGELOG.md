@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-11
+
+### Added
+
+- SQLite-backed `DriftTracker` storage for persistent baseline tracking across runs.
+- `.github/FUNDING.yml` for GitHub Sponsors.
+
+### Fixed
+
+- Skip `_extra_fields` when `additionalProperties` is a schema or `false` (#16, #17).
+- Update CLI default and tests for the SQLite store.
+- Remove unused `Path` import.
+
 ## [0.1.0] - 2026-10-06
 
 First working release.
