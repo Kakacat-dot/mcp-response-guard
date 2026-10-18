@@ -1,3 +1,5 @@
+
+
 # MCP Response Guard
 
 > Runtime schema validation and drift detection for MCP server responses.
